@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bate-Papo UOL</title>
+
+        <meta name="description" content="Bate-Papo UOL">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Igor Ribeiro dos Santos">
+
+        <link rel="stylesheet" href="../CSS/reset.css" />
+        <link rel="stylesheet" href="../CSS/style.css" />
+    </head>
+
+    <body>
+        <div class="containerGlobal">
+            <div class="containerChat">
+                <header>
+                    <div>
+                        <img class="logo" src="../imgs/logo.png" />
+                    </div>
+
+                    <div>
+                        <ion-icon class="icone" name="people"></ion-icon>
+                    </div>
+                </header>
+
+                <main>
+                    <div class="status caixaMensagem">
+                        <div class="notificacao">
+                            <p class="tempo">(09:21:45)</p> <p><bold>João</bold> entra na sala...</p>
+                        </div>
+                    </div>
+
+                    <div class="normal caixaMensagem">
+                        <div class="notificacao">
+                            <p class="tempo">(09:22:28)</p> <p><bold>João</bold> para <bold>Todos</bold>: Bom dia</p>
+                        </div>
+                    </div>
+
+                    <div class="normal caixaMensagem">
+                        <div class="notificacao">
+                            <p class="tempo">(09:22:38)</p> <p><bold>Maria</bold> para <bold>João</bold>: Oi João :)</p>
+                        </div>
+                    </div>
+
+                    <div class="reservada caixaMensagem">
+                        <div class="notificacao">
+                            <p class="tempo">(09:22:48)</p> <p><bold>João</bold> reservadamente para <bold>Maria</bold>: Oi gatinha quer tc?</p>
+                        </div>
+                    </div>
+
+                    <div class="status caixaMensagem">
+                        <div class="notificacao">
+                            <p class="tempo">(09:22:58)</p> <p><bold>Maria</bold> sai da sala...</p>
+                        </div>
+                    </div>
+                </main>
+
+                <div class="mensagem">
+                    <div class="digite">
+                        <input type="text" wrap="hard" placeholder="Escreva aqui...">
+                    </div>
+
+                    <div>
+                        <ion-icon class="iconeMensagem" name="paper-plane-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+
+</html>
